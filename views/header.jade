@@ -1,0 +1,31 @@
+.navbar.navbar-inverse
+    .container
+      .navbar-header
+        button(type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse")
+          span.sr-only Toggle navigation
+          span.icon-bar
+          span.icon-bar
+          span.icon-bar
+        a.navbar-brand(href="/") Jackie Gleason
+      .collapse.navbar-collapse
+        // TODO: Do I want this?
+        // ul.nav.navbar-nav.navbar-left
+        //  li
+        //    a(href="/") Home
+        //  li
+        //    a(href="/java") J2EE
+        //  li
+        //    a(href="/android") Android
+        ul.nav.navbar-nav.col-sm-5
+          li.col-xs-12
+            a.btn.col-xs-12(href="https://docs.google.com/document/d/1MLnPZYdkDdITFDJNpPyn1kwjePum-M05qc5RfSYV6sI/edit?usp=sharing") Resumé
+        ul.nav.navbar-nav.navbar-right
+          li
+            a(href="http://blog.jackiergleason.com")
+             i.fa.fa-bullhorn.fa-2
+          li.github
+            a(href="https://github.com/jrgleason") 
+              i.fa.fa-github.fa-2  
+          li
+            a(href="http://stackoverflow.com/users/125212/jackie")
+              i.fa.fa-stack-overflow.fa-2

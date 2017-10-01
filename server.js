@@ -10,7 +10,7 @@ var user = require('./routes/user');
 var http = require('http');
 var path = require('path');
 var ipaddress = process.env.OPENSHIFT_NODEJS_IP;
-var port      = process.env.OPENSHIFT_NODEJS_PORT || 3000;
+var port      = process.env.OPENSHIFT_NODEJS_PORT || 8080;
 var connect_cache = require('connect-cache');
 
 if (typeof ipaddress === "undefined") {

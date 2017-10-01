@@ -17,13 +17,16 @@ if (typeof ipaddress === "undefined") {
             //  Log errors on OpenShift but continue w/ 127.0.0.1 - this
             //  allows us to run/test the app locally.
   console.warn('No OPENSHIFT_NODEJS_IP var, using 127.0.0.1');
-  ipaddress = "127.0.0.1";
+  ipaddress = "0.0.0.1";
 };
 
 var app = express();
+self.app = app;
 
 // all environments
 app.set('port', port);
+self.port = port;
+self.ipaddress = ipaddress;
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'jade');
 app.use(express.favicon());

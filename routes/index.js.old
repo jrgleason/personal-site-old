@@ -1,0 +1,29 @@
+var express = require('express');
+var router = express.Router();
+var title = "JackieRGleason.com";
+
+var index = function(req, res){
+  res.render('index', { title: 'Express' });
+};
+var java = function(req, res){
+  res.render('java', { title: 'Express' });
+};
+var android = function(req, res){
+  res.render('android', { title: 'Express' });
+};
+var responsive = function(req, res){
+  res.render('responsive', { title: 'Express' });
+};
+var viz = function(req, res){
+  res.render('viz', { title: 'Express' });
+};
+/* GET home page. */
+router.get('/', index)
+router.get('/', routes.index);
+router.get('/java', routes.java);
+router.get('/responsive', routes.responsive);
+router.get('/android', routes.android);
+router.get('/viz', routes.viz);
+router.get('/users', user.list);
+
+module.exports = router;

@@ -17,3 +17,4 @@ npm-debug.log
 .idea
 cache
 bundle.js
+src/main/node/public/webpack

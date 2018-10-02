@@ -10,8 +10,8 @@ express.app.set("port", '3000');
 let server = http.createServer(express.app);
 server.listen("3000");
 let secure = https.createServer({
-  key: fs.readFileSync(path.join(__dirname, 'server.key')),
-  cert: fs.readFileSync(path.join(__dirname, 'server.cert'))
+  key: fs.readFileSync(path.join(__dirname, 'src/main/node/key/server.key')),
+  cert: fs.readFileSync(path.join(__dirname, 'src/main/node/key/server.cert'))
 },express.app);
 secure.listen("3001");
 let onListening = function(){

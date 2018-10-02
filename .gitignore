@@ -18,3 +18,6 @@ npm-debug.log
 cache
 bundle.js
 src/main/node/public/webpack
+
+*.pem
+*.key

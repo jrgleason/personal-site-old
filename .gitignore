@@ -17,3 +17,4 @@ test-results.xml
 npm-debug.log
 .idea
 cache
+bundle.js

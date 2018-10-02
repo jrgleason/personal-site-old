@@ -34,11 +34,11 @@ col-md-4 {
 footer a {
   float: left;
 }
-footer span.fa {
+footer span.fa, footer span.fab {
   margin-left: 0.5em;
   font-size: 1em;
 }
-footer span.fa p {
+footer span.fa p, footer span.fab p {
   margin-left: 2em;
 }
 hr {
@@ -194,7 +194,7 @@ ul.nav.navbar-nav.navbar-right > .github {
   .glyph {
     width: 100%;
   }
-  .glyph span.fa {
+  .glyph span.fa, .glyph span.fab{
     text-align: center;
     width: 100%;
     display: block;

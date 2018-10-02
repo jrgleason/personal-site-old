@@ -10,7 +10,6 @@ tmp
 *.iws
 *.iml
 .project
-style.css
 small.css
 test-results.xml
 .DS_Store

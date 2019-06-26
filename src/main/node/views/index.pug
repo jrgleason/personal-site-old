@@ -1,0 +1,44 @@
+extends layout
+block content
+  .jumbo
+      .message
+        h1 Get It Done!
+        p This is the personal web page of Jackie R. Gleason, a Columbus area software developer.
+      .logo
+         img(src="/images/statesmall.png")
+  .info-area
+      .row
+        .row-item
+          .glyph
+            span.fa.fa-coffee
+          h1 J2EE
+          // p Java can be a large landscape, with buzzwords aplenty. Jackie has the experience needed to meet your Java needs. From older technologies like EJB 1.0 and Swing, to the newer technologies like Groovy and Scala, Mr. Gleason is a very flexible and pragmatic programmer.
+          .small-link
+            p
+              a.btn.btn-default(href="/java",role="button") View details »
+        .row-item
+          .glyph
+            span.fab.fa-android
+          h1 Android
+          // p Starting with his Nexus One, after his wife washed his iPhone3, Mr. Gleason has become passionate about the Android platform. From compiling roms and libraries to using frameworks like PhoneGap, Mr. Gleason has taken pride in being on the cutting edge of mobile technology. Mr. Gleason is also an experience conference presenter on the field of ObjectiveC on the android platform.
+          .small-link
+            p
+              a.btn.btn-default(href="/android",role="button") View details »
+        .row-item
+          .glyph
+            span.fab.fa-ethereum
+          h1 Ethereum
+          // p Need help making your site POP?! Mr. Gleason has extensive experience in SASS, LESS and Twitter Bootstrap. He has work with some of the trendiest brands such as Abercrombie and Fitch, and The Limited Brands.
+          .small-link
+            p
+              a.btn.btn-default(href="/responsive",role="button") View details »
+      .row.large-link
+        .row-item
+          p
+            a.btn.btn-default(href="/java",role="button") View details »
+        .row-item
+          p
+            a.btn.btn-default(href="/android",role="button") View details »
+        .row-item  
+          p
+            a.btn.btn-default(href="/responsive",role="button") View details »

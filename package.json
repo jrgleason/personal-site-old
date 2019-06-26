@@ -3,16 +3,32 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "npm install && node app.js"
+    "webpack": "webpack",
+    "start": "node --experimental-modules ./src/main/node/server.mjs"
   },
   "dependencies": {
-    "stylus": "*",
+    "@fortawesome/fontawesome-free": "^5.3.1",
+    "body-parser": "^1.18.3",
     "connect-cache": "*",
-    "express": "~4.16.3",
-    "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
-    "morgan": "^1.9.0",
-    "pug": "^2.0.0-rc.4",
-    "serve-favicon": "^2.4.5"
+    "express": "~4.16.3",
+    "morgan": "^1.9.1",
+    "serve-favicon": "^2.5.0",
+    "stylus": "*"
+  },
+  "devDependencies": {
+    "css-loader": "^1.0.0",
+    "file-loader": "^2.0.0",
+    "pug": "^2.0.3",
+    "pug-loader": "^2.4.0",
+    "style-loader": "^0.23.0",
+    "url-loader": "^1.1.1",
+    "vue-loader": "^15.4.2",
+    "vue-resource": "^1.5.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.5.17",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-merge": "^4.1.4"
   }
 }

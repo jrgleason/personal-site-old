@@ -10,10 +10,14 @@ tmp
 *.iws
 *.iml
 .project
-style.css
 small.css
 test-results.xml
 .DS_Store
 npm-debug.log
 .idea
 cache
+bundle.js
+src/main/node/public/webpack
+
+*.pem
+*.key
